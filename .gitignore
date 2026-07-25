@@ -1,0 +1,32 @@
+# Unreal Engine — generated / local
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# IDE / OS
+.vs/
+.vscode/
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.sln.docstates
+*.user
+*.userprefs
+.DS_Store
+Thumbs.db
+
+# Visual Studio solution is regenerated from .uproject
+*.sln
+*.xcodeproj
+*.xcworkspace
+
+# Marketplace editor plugin (optional; not required to build the game)
+Plugins/VisualStudioTools/
+
+# Crash / dump leftovers
+*.dmp
+*.log
