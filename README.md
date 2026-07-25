@@ -3,9 +3,6 @@
 Space Invaders–inspired game built in **Unreal Engine 5.7** (C++ + Blueprints).  
 The player orbits Earth and must stop invaders and asteroids from colliding with it.
 
-Preferred engine version: **5.7.2** (also opens in 5.7.x, e.g. 5.7.4).  
-`EngineAssociation` in `OrbitInvaders.uproject` is set to `"5.7"`.
-
 ## Features
 
 - Main Menu (Start / Endless / Options / Quit)
@@ -39,8 +36,8 @@ If the editor asks about a missing **VisualStudioTools** plugin, disable/remove 
 
 ## Controls
 
-- Move on orbit: left / right (Enhanced Input — see `Content/Input`)
-- Fire: fire action binding
+- Move on orbit: **A** (left) / **D** (right) (can be changed in IMC_Default)
+- Fire: **Space**
 - Pause: **Escape** (test in Standalone Game if PIE swallows Escape)
 
 ## Project layout
@@ -52,5 +49,3 @@ If the editor asks about a missing **VisualStudioTools** plugin, disable/remove 
 | `Content/UI/` | Widget Blueprints (menus, HUD, options) |
 | `Content/Maps/` | Game level |
 | `Config/` | Project defaults |
-
-Gameplay logic lives mainly in C++; Blueprints wire assets, UI layout, and editor-tunable visuals.
