@@ -23,7 +23,7 @@ The player orbits Earth and must stop invaders and asteroids from colliding with
 
 1. Clone the repository and make sure Git LFS pulled assets:
    ```bash
-   git clone <REPO_URL>
+   git clone https://github.com/BagsikMr/OrbitInvaders.git
    cd OrbitInvaders
    git lfs pull
    ```
